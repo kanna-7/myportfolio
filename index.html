@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">Your Name</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1>Hi, I'm Your Name</h1>
+        <p class="tagline">I build delightful web experiences — front-end & small full-stack projects.</p>
+        <p>
+          <a class="btn" href="#projects">See my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section container about">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I’m a developer who focuses on building accessible, performant web apps. I enjoy design, small libraries, and clean code.</p>
+          <p>Skills: HTML, CSS, JavaScript, React, Node.js (customize as needed).</p>
+        </div>
+        <div class="about-photo" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Short description of the project. Link, tech stack summary, and a demo/screenshot.</p>
+          <p><a class="card-link" href="#">View</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description of the project. Link, tech stack summary, and a demo/screenshot.</p>
+          <p><a class="card-link" href="#">View</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Short description of the project. Link, tech stack summary, and a demo/screenshot.</p>
+          <p><a class="card-link" href="#">View</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <h2>Contact</h2>
+      <p>Prefer email? <a href="mailto:you@example.com">you@example.com</a></p>
+      <form id="contactForm" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn">Send message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
