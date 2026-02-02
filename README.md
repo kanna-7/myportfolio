@@ -22,3 +22,6 @@ Customization:
 - Replace "Your Name" and edit content in `index.html`.
 - Tweak colors and layout in `css/styles.css`.
 - Hook the contact `form` in `js/script.js` to your backend or an email service.
+
+deployment link:
+ https://myportfolio-cyan-two-35.vercel.app/
